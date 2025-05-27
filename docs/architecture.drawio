@@ -1,0 +1,153 @@
+<mxfile host="65bd71144e">
+    <diagram id="ZHsLaaUup8QDRH6C1CUU" name="Page-1">
+        <mxGraphModel dx="1360" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="180" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.file_2;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="230" width="30" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Log File(s)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="270" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Pod #1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="190" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="185" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="330" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.file_2;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="380" width="30" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Log File(s)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="420" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Pod #2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="340" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-20" y="250" as="sourcePoint"/>
+                        <mxPoint x="-230" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Log Data Updates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-180" y="220" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="6" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="220" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="210" as="sourcePoint"/>
+                        <mxPoint x="190" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="220" y="250"/>
+                            <mxPoint x="220" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Read Log Files" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="220" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Log Scraper Pod" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry y="200" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="- Deployment&lt;div&gt;- Pod Name&lt;/div&gt;&lt;div&gt;- Log Line&lt;/div&gt;&lt;div&gt;- Log Level&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry y="240" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="390" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Log Searcher&lt;div&gt;Pod&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry y="405" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="- Target Search&lt;div&gt;- Time Frame&lt;/div&gt;&lt;div&gt;- Filters, etc&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-10" y="445" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-260" y="290" as="sourcePoint"/>
+                        <mxPoint x="-130" y="340" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-260" y="455"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Log Search Results" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-225" y="418" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-350" y="170" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="DB API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-325" y="215" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="190" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="27" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-360" y="230" as="sourcePoint"/>
+                        <mxPoint x="-380" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="CRUD Updates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-460" y="170" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="29" target="27">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-460" y="400" as="sourcePoint"/>
+                        <mxPoint x="-410" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Log Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-445" y="250" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-20" y="620" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="UI SPA&lt;div&gt;Pod&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry y="635" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="- Get user query&lt;div&gt;- Display query result&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-25" y="680" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Send Query" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="558" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Options for storing log files&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Copy raw log files into document db, name by pod name&lt;/div&gt;&lt;div&gt;- Fetch the latest info from log files and merge into existing structured format&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="70" width="430" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="pod_d1_aaa&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hello World!&lt;/div&gt;&lt;div&gt;Starting worker #1&lt;/div&gt;&lt;div&gt;Starting worker #2&lt;/div&gt;&lt;div&gt;Pod Failed&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;pod_d1_bbb&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Starting working #1&lt;/div&gt;&lt;div&gt;Worker failed!!&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="168" width="130" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Inside the db, we will often care about getting logs by pod&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- The raw, replaced file is the easiest way to do this&lt;/div&gt;&lt;div&gt;- different pods will have different logging formats (ex, not replicas of the same pod)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="175" width="470" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Pod file update loop:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;for each namespace:&lt;/div&gt;&lt;div&gt;for each deployment in namespace:&lt;/div&gt;&lt;div&gt;for each pod in deployment:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- if this pod is new, capture its log as a new file in the db&lt;/div&gt;&lt;div&gt;- if this pod isn&#39;t new, replace the existing file in the db&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="413" width="320" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="[Post MVP] Properties of the DB&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Max time to live for all files&lt;/div&gt;&lt;div&gt;- max size of the db, start deteting oldest once we reach capacity?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="390" width="380" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Questions:&lt;br&gt;&lt;br&gt;- How often do we poll for changes?&lt;div&gt;- do we distribute work with daemonset?&lt;/div&gt;&lt;div&gt;- I&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="558" width="240" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
