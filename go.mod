@@ -1,6 +1,6 @@
 module github.com/YOUR-USER-OR-ORG-NAME/YOUR-REPO-NAME
 
-go 1.23.0
+go 1.24.0
 
 toolchain go1.24.2
 
@@ -17,4 +17,5 @@ require (
 	golang.org/x/text v0.25.0 // indirect
 	gorm.io/driver/postgres v1.5.11 // indirect
 	gorm.io/gorm v1.30.0 // indirect
+	k8s.io/client-go v0.33.1 // indirect
 )
