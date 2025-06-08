@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paneful-scraper-deploy
+  labels:
+    app: paneful-scraper-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: paneful-scraper
+  template:
+    metadata:
+      labels:
+        app: paneful-scraper
+    spec:
+      containers:
+      - name: paneful-scraper
+        image: paneful-scraper:latest

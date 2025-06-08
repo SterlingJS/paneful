@@ -1,6 +1,9 @@
-FROM golang:1.24-alpine as builder
+FROM golang:1.24-alpine AS builder
 WORKDIR /app
-COPY . .
+COPY ./go.mod .
+COPY ./go.sum .
+RUN go mod download
+COPY ./cmd/paneful_scraper/ .
 RUN CGO_ENABLED=0 GOOS=linux go build -o paneful_scraper
 FROM gcr.io/distroless/base
 WORKDIR /app

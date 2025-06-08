@@ -1,0 +1,7 @@
+apiVersion: 0.0.1
+name: paneful-scraper
+version: 0.0.1
+description: Backend Scraper service to collect pod logs and store them in a DB
+maintainers:
+  - name: James Sterling
+    email: james.sterling000@gmail.com
